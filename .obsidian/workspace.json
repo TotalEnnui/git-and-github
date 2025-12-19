@@ -53,21 +53,32 @@
             "id": "7038543ef80ad29e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": 139,
-                  "y": -301.29559748427664,
-                  "zoom": -0.7710395282607357
-                }
+                "file": "git initial push.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
+              "icon": "lucide-file",
+              "title": "git initial push"
+            }
+          },
+          {
+            "id": "217271e670896f49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Add the remote to your local repo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Add the remote to your local repo"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "Add the remote to your local repo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Canvas"
+              "title": "Backlinks for Add the remote to your local repo"
             }
           },
           {
@@ -159,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "Add the remote to your local repo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Canvas"
+              "title": "Outgoing links from Add the remote to your local repo"
             }
           },
           {
@@ -202,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "Add the remote to your local repo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Canvas"
+              "title": "Outline of Add the remote to your local repo"
             }
           }
         ]
@@ -229,14 +240,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7038543ef80ad29e",
+  "active": "217271e670896f49",
   "lastOpenFiles": [
-    "create repo using gh cli.md",
+    "Git and Github.canvas",
     "Add the remote to your local repo.md",
+    "just push.md",
     "git initial push.md",
+    "create repo using gh cli.md",
     "create tokens.md",
     "login to GitHub using GitHub CLI.md",
-    "Canvas.canvas",
     "snippets/style-blockquoates.css",
     "snippets/heading-colors.css",
     "snippets/folder-title-color.css",

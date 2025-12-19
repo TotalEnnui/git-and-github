@@ -32,3 +32,6 @@ git remote -v
 
 - `origin` → just an alias for the GitHub repo URL (default remote name).
 - `-u` **/** `--set-upstream` → tells Git to track your local branch (`main`) against the remote branch (`origin/main`), so future `git push` and `git pull` commands don’t need extra arguments.
+
+[[just push]]
+

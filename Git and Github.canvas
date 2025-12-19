@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"df29e2ed43dd1223","type":"file","file":"login to GitHub using GitHub CLI.md","x":-825,"y":-719,"width":400,"height":119},
+		{"id":"7cf19e2133fb6296","type":"file","file":"create tokens.md","x":-945,"y":-1200,"width":640,"height":228,"color":"4"},
+		{"id":"8183cb5902a24587","type":"file","file":"create repo using gh cli.md","x":320,"y":-883,"width":663,"height":447},
+		{"id":"f368153311f299e2","type":"file","file":"git initial push.md","x":452,"y":-320,"width":400,"height":400},
+		{"id":"08a4b6a0811dfb72","x":452,"y":200,"width":400,"height":160,"type":"file","file":"just push.md"},
+		{"id":"9d14f60a341a7881","type":"file","file":"verify authentication.md","x":-240,"y":-709,"width":400,"height":100},
+		{"id":"74bfeadad637854a","x":1160,"y":-859,"width":400,"height":400,"type":"file","file":"Add the remote to your local repo.md"}
+	],
+	"edges":[
+		{"id":"02d5157f55c38bcf","fromNode":"df29e2ed43dd1223","fromSide":"right","toNode":"9d14f60a341a7881","toSide":"left"},
+		{"id":"ddc635a5ae656057","fromNode":"9d14f60a341a7881","fromSide":"right","toNode":"8183cb5902a24587","toSide":"left"},
+		{"id":"aa4091d82313291b","fromNode":"7cf19e2133fb6296","fromSide":"bottom","toNode":"df29e2ed43dd1223","toSide":"top"},
+		{"id":"1d04e4f533650a6f","fromNode":"8183cb5902a24587","fromSide":"bottom","toNode":"f368153311f299e2","toSide":"top"},
+		{"id":"7811e5a816701fe7","fromNode":"08a4b6a0811dfb72","fromSide":"top","toNode":"f368153311f299e2","toSide":"bottom"},
+		{"id":"f5af5eed02e2858c","fromNode":"74bfeadad637854a","fromSide":"left","toNode":"8183cb5902a24587","toSide":"right"}
+	]
+}
