@@ -41,16 +41,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "create repo using gh cli.md",
+                "file": "git initial push.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "create repo using gh cli"
+              "title": "git initial push"
+            }
+          },
+          {
+            "id": "7038543ef80ad29e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas.canvas",
+                "viewState": {
+                  "x": 139,
+                  "y": -301.29559748427664,
+                  "zoom": -0.7710395282607357
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "151f69e8559c6234",
@@ -124,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "create repo using gh cli.md",
+                "file": "Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for create repo using gh cli"
+              "title": "Backlinks for Canvas"
             }
           },
           {
@@ -143,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "create repo using gh cli.md",
+                "file": "Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from create repo using gh cli"
+              "title": "Outgoing links from Canvas"
             }
           },
           {
@@ -186,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "create repo using gh cli.md",
+                "file": "Canvas.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of create repo using gh cli"
+              "title": "Outline of Canvas"
             }
           }
         ]
@@ -205,21 +221,22 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "b3669600e382e29d",
+  "active": "7038543ef80ad29e",
   "lastOpenFiles": [
-    "create tokens.md",
+    "create repo using gh cli.md",
+    "Add the remote to your local repo.md",
     "git initial push.md",
+    "create tokens.md",
     "login to GitHub using GitHub CLI.md",
     "Canvas.canvas",
-    "create repo using gh cli.md",
     "snippets/style-blockquoates.css",
     "snippets/heading-colors.css",
     "snippets/folder-title-color.css",

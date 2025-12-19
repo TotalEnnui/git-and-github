@@ -45,3 +45,4 @@ gh repo create my-project --public --source=. --remote=origin
 ## After repo is created, then stage, commit, and push
 
 [[git initial push]]
+[[Add the remote to your local repo]]
