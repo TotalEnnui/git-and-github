@@ -1,0 +1,19 @@
+/* Change tab bar background to a very dark navy */
+.workspace-tab-header-container {
+  background-color: #001219; /* Deep Prussian Blue */
+}
+
+/* Optional: Sets active tab to a slightly lighter shade to distinguish it */
+.workspace-tab-header.is-active {
+  background-color: #002147 !important; 
+}
+
+/* Ensure text remains clear */
+.workspace-tab-header-container .workspace-tab-header-inner-title {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Keep window controls transparent */
+.titlebar-button-container {
+  background-color: transparent !important;
+}

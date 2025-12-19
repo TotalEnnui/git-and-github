@@ -1,0 +1,8 @@
+/* Link styling */
+.markdown-preview-view a {
+  color: #ff9800; /* orange links */
+  text-decoration: none;
+}
+.markdown-preview-view a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+/* Code block background */
+.markdown-preview-view pre {
+  background-color: #2e2e2e; /* dark gray */
+  border-radius: 6px;
+  padding: 8px;
+  color: #f8f8f2; /* light text */
+}

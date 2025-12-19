@@ -1,0 +1,13 @@
+{
+  "enabledCssSnippets": [
+    "add-spacing+paragraphs",
+    "Centers-images-in-Editor-Mode",
+    "centers-images-in-reading-mode",
+    "code-block-background",
+    "colored-tab-bar",
+    "custom-links",
+    "folder-title-color",
+    "heading-colors",
+    "style-blockquoates"
+  ]
+}

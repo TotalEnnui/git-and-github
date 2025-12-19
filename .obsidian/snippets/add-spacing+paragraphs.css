@@ -1,0 +1,4 @@
+/* Extra spacing between paragraphs */
+.markdown-preview-view p {
+  margin-bottom: 0.8em;
+}
