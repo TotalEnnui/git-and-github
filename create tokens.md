@@ -29,6 +29,6 @@ _(Optional: add other scopes only if your workflow requires them, e.g.,_ `workfl
 - Copy the token immediately — you won’t be able to see it again.
 - Store it securely (e.g., in a password manager or environment variable).
 
-[[login to GitHub using GitHub CLI]]
+[[gh clone repo]]
 
 ![[token-selection.png]]

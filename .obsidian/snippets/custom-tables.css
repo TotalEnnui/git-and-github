@@ -1,0 +1,173 @@
+/* ================================
+   Obsidian Table Highlight / Colorize
+   - Header contrast
+   - Zebra striping
+   - Row hover highlight
+   - Compact, readable borders
+   - Accent classes for per-table emphasis
+   --------------------------------
+   Works in Reading View (.markdown-rendered)
+   and Live Preview/Editor rendering.
+   ================================ */
+
+/* Theme-aware variables (adjust to taste) */
+:root {
+  --tbl-header-bg-light: #f4f6fb;
+  --tbl-header-text-light: #1f2430;
+  --tbl-row-odd-light: #ffffff;
+  --tbl-row-even-light: #f9fbff;
+  --tbl-row-hover-light: #e9f1ff;
+  --tbl-border-light: #d9e1f2;
+
+  --tbl-header-bg-dark: #222636;
+  --tbl-header-text-dark: #eaf0ff;
+  --tbl-row-odd-dark: #1a1e2b;
+  --tbl-row-even-dark: #202536;
+  --tbl-row-hover-dark: #2a3250;
+  --tbl-border-dark: #3a4160;
+
+  --tbl-cell-padding-y: 0.5rem;
+  --tbl-cell-padding-x: 0.75rem;
+  --tbl-radius: 8px;
+  --tbl-header-weight: 600;
+  --tbl-font-size: 0.95rem;
+  --tbl-line-height: 1.35;
+}
+
+/* Base scope: reading view */
+.markdown-rendered table,
+.cm-s-obsidian .HyperMD-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: var(--tbl-font-size);
+  line-height: var(--tbl-line-height);
+  overflow: hidden;
+  border: 1px solid var(--tbl-border-light);
+  border-radius: var(--tbl-radius);
+}
+
+/* Dark theme border */
+.theme-dark .markdown-rendered table,
+.theme-dark .cm-s-obsidian .HyperMD-table table {
+  border-color: var(--tbl-border-dark);
+}
+
+/* Header styling */
+.markdown-rendered table thead th,
+.cm-s-obsidian .HyperMD-table thead th {
+  background: var(--tbl-header-bg-light);
+  color: var(--tbl-header-text-light);
+  font-weight: var(--tbl-header-weight);
+  text-transform: none;
+  letter-spacing: 0.02em;
+  padding: calc(var(--tbl-cell-padding-y) + 0.1rem) var(--tbl-cell-padding-x);
+  border-bottom: 1px solid var(--tbl-border-light);
+}
+
+.theme-dark .markdown-rendered table thead th,
+.theme-dark .cm-s-obsidian .HyperMD-table thead th {
+  background: var(--tbl-header-bg-dark);
+  color: var(--tbl-header-text-dark);
+  border-bottom-color: var(--tbl-border-dark);
+}
+
+/* Body cells */
+.markdown-rendered table tbody td,
+.markdown-rendered table tbody th,
+.cm-s-obsidian .HyperMD-table tbody td,
+.cm-s-obsidian .HyperMD-table tbody th {
+  padding: var(--tbl-cell-padding-y) var(--tbl-cell-padding-x);
+  border-bottom: 1px solid var(--tbl-border-light);
+}
+
+.theme-dark .markdown-rendered table tbody td,
+.theme-dark .markdown-rendered table tbody th,
+.theme-dark .cm-s-obsidian .HyperMD-table tbody td,
+.theme-dark .cm-s-obsidian .HyperMD-table tbody th {
+  border-bottom-color: var(--tbl-border-dark);
+}
+
+/* Zebra striping */
+.markdown-rendered table tbody tr:nth-child(odd),
+.cm-s-obsidian .HyperMD-table tbody tr:nth-child(odd) {
+  background: var(--tbl-row-odd-light);
+}
+.markdown-rendered table tbody tr:nth-child(even),
+.cm-s-obsidian .HyperMD-table tbody tr:nth-child(even) {
+  background: var(--tbl-row-even-light);
+}
+
+.theme-dark .markdown-rendered table tbody tr:nth-child(odd),
+.theme-dark .cm-s-obsidian .HyperMD-table tbody tr:nth-child(odd) {
+  background: var(--tbl-row-odd-dark);
+}
+.theme-dark .markdown-rendered table tbody tr:nth-child(even),
+.theme-dark .cm-s-obsidian .HyperMD-table tbody tr:nth-child(even) {
+  background: var(--tbl-row-even-dark);
+}
+
+/* Hover highlight */
+.markdown-rendered table tbody tr:hover,
+.cm-s-obsidian .HyperMD-table tbody tr:hover {
+  background: var(--tbl-row-hover-light);
+}
+
+.theme-dark .markdown-rendered table tbody tr:hover,
+.theme-dark .cm-s-obsidian .HyperMD-table tbody tr:hover {
+  background: var(--tbl-row-hover-dark);
+}
+
+/* Rounded corners on first/last cells */
+.markdown-rendered table thead tr th:first-child,
+.cm-s-obsidian .HyperMD-table thead tr th:first-child {
+  border-top-left-radius: var(--tbl-radius);
+}
+.markdown-rendered table thead tr th:last-child,
+.cm-s-obsidian .HyperMD-table thead tr th:last-child {
+  border-top-right-radius: var(--tbl-radius);
+}
+.markdown-rendered table tbody tr:last-child td:first-child,
+.cm-s-obsidian .HyperMD-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: var(--tbl-radius);
+}
+.markdown-rendered table tbody tr:last-child td:last-child,
+.cm-s-obsidian .HyperMD-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: var(--tbl-radius);
+}
+
+/* Optional: compact table class (apply via cssclass: compact-table in frontmatter) */
+.markdown-rendered .compact-table table,
+.cm-s-obsidian .compact-table .HyperMD-table table {
+  --tbl-cell-padding-y: 0.35rem;
+  --tbl-cell-padding-x: 0.6rem;
+  --tbl-font-size: 0.9rem;
+}
+
+/* Optional: accent classes for emphasis (apply to a table wrapper div with class) */
+.markdown-rendered .table-accent-blue table,
+.cm-s-obsidian .table-accent-blue .HyperMD-table table {
+  --tbl-header-bg-light: #e6f0ff;
+  --tbl-header-bg-dark: #1f2a4d;
+  --tbl-border-light: #a7c0ff;
+  --tbl-border-dark: #4a5fa8;
+  --tbl-row-hover-light: #d9e8ff;
+  --tbl-row-hover-dark: #2a3a6f;
+}
+
+.markdown-rendered .table-accent-green table,
+.cm-s-obsidian .table-accent-green .HyperMD-table table {
+  --tbl-header-bg-light: #e9f7ef;
+  --tbl-header-bg-dark: #1f2e24;
+  --tbl-border-light: #bfe5cf;
+  --tbl-border-dark: #3f5e4c;
+  --tbl-row-hover-light: #dbf2e4;
+  --tbl-row-hover-dark: #2a4436;
+}
+
+/* Callout-like row emphasis: add class 'highlight-row' to tr via HTML block */
+.markdown-rendered table tr.highlight-row,
+.cm-s-obsidian .HyperMD-table tr.highlight-row {
+  outline: 2px solid currentColor;
+  box-shadow: inset 0 0 0 999px rgba(255, 235, 135, 0.22);
+}

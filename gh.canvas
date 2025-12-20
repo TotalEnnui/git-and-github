@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"0653031097f74dcd","type":"text","text":"`gh repo create my-project --public --source=. --remote=origin`","x":-360,"y":-320,"width":565,"height":60,"color":"4"},
+		{"id":"169b54bb265c8688","type":"text","text":"`gh repo create my-project`\n\n**This tells GitHub CLI to create a new repository named `my-project` on GitHub**","x":-800,"y":-140,"width":320,"height":140},
+		{"id":"56961cfaa39886e3","type":"text","text":"--source=.\n\nThis tells `gh repo create` to use the current directory (`.`) as the source of files for the new repository. It packages up whatever is in that folder and pushes it to GitHub.\n","x":-120,"y":-140,"width":365,"height":180},
+		{"id":"8577e10177b39227","x":300,"y":-140,"width":250,"height":220,"type":"text","text":"`--remote=origin`\n\nAfter creating the repo, GitHub CLI will add a Git remote named `origin` pointing to the new GitHub repository. That way, you can immediately push/pu"},
+		{"id":"53e182e440067a7c","x":-420,"y":-140,"width":250,"height":110,"type":"text","text":"--public\n\nThe new repository will be public (visible to everyone)."}
+	],
+	"edges":[
+		{"id":"bc1ff0323d2b356e","fromNode":"0653031097f74dcd","fromSide":"bottom","toNode":"169b54bb265c8688","toSide":"top"},
+		{"id":"7b3d3998505665c9","fromNode":"0653031097f74dcd","fromSide":"bottom","toNode":"56961cfaa39886e3","toSide":"top"},
+		{"id":"b6d0e72937d74d4c","fromNode":"8577e10177b39227","fromSide":"top","toNode":"0653031097f74dcd","toSide":"bottom"},
+		{"id":"05b5f46fa14c9b2f","fromNode":"53e182e440067a7c","fromSide":"top","toNode":"0653031097f74dcd","toSide":"bottom"}
+	]
+}

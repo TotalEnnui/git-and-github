@@ -22,3 +22,4 @@ git remote add origin git@github.com:USERNAME/REPO-NAME.git
 |**Convenience**|Prompts for credentials unless cached|No repeated login—keys handle authentication automatically|
 |**Firewall Compatibility**|Uses port 443 (almost always open)|Uses port 22 (may be blocked by corporate firewalls)|
 |**Best For**|Beginners, occasional use, environments where SSH is blocked|Frequent pushes/pulls, automation, CI/CD pipelines|
+

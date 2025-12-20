@@ -55,30 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git initial push.md",
+                "file": "just push.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git initial push"
-            }
-          },
-          {
-            "id": "217271e670896f49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Add the remote to your local repo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Add the remote to your local repo"
+              "title": "just push"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -240,15 +226,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "217271e670896f49",
+  "active": "7038543ef80ad29e",
   "lastOpenFiles": [
-    "Git and Github.canvas",
+    "gh.canvas",
     "Add the remote to your local repo.md",
-    "just push.md",
-    "git initial push.md",
     "create repo using gh cli.md",
     "create tokens.md",
-    "login to GitHub using GitHub CLI.md",
+    "gh clone repo.md",
+    "Git and Github.canvas",
+    "git initial push.md",
+    "just push.md",
+    "verify authentication.md",
     "snippets/style-blockquoates.css",
     "snippets/heading-colors.css",
     "snippets/folder-title-color.css",
@@ -260,7 +248,6 @@
     "snippets/add-spacing+paragraphs.css",
     "snippets",
     "assets/token-selection.png",
-    "verify authentication.md",
     "authenticate with gh CLI.md",
     "Welcome.md"
   ]

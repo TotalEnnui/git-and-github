@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"df29e2ed43dd1223","type":"file","file":"login to GitHub using GitHub CLI.md","x":-825,"y":-719,"width":400,"height":119},
+		{"id":"df29e2ed43dd1223","type":"file","file":"gh clone repo.md","x":-825,"y":-719,"width":400,"height":119},
 		{"id":"7cf19e2133fb6296","type":"file","file":"create tokens.md","x":-945,"y":-1200,"width":640,"height":228,"color":"4"},
 		{"id":"8183cb5902a24587","type":"file","file":"create repo using gh cli.md","x":320,"y":-883,"width":663,"height":447},
 		{"id":"f368153311f299e2","type":"file","file":"git initial push.md","x":452,"y":-320,"width":400,"height":400},

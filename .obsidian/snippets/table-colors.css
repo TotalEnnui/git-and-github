@@ -1,0 +1,9 @@
+/* Alternating Row Colors for all tables */
+.markdown-preview-view table tr:nth-child(odd) {
+    background-color: var(--background-secondary); /* Use an Obsidian variable for theme compatibility */
+}
+
+/* Optional: Color the table header */
+.markdown-preview-view table th {
+    background-color: var(--background-modifier-border);
+}
